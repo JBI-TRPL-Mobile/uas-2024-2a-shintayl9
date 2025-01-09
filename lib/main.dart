@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'WIREFRAME PROJECT',
+        title: 'WIREFRAME PROJECT SHINTA',
         theme: ThemeData(
           primarySwatch: Colors.teal,
         ),
