@@ -10,9 +10,17 @@ class LandingPage extends StatelessWidget {
         Expanded(
           child: Center(
             child: Text(
-              'Welcome William',
+              'Welcome to Wireframe Project',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Text(
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.',
+            style: TextStyle(fontSize: 16, fontWeight: FontWeight.normal),
+            textAlign: TextAlign.center,
           ),
         ),
         Padding(
